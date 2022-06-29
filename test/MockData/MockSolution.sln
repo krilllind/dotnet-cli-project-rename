@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MockProject", "MockProject.csproj", "{CC98B54E-6637-4D65-996A-FA55C6901002}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{D50E28CA-42E7-4406-B7A8-7B5F7A7F200E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MockProjects.Tests", "..\MockProjects.Tests\MockProjects.Tests.csproj", "{20770AED-EDEC-4578-81AE-64E448E68FB4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC98B54E-6637-4D65-996A-FA55C6901002}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC98B54E-6637-4D65-996A-FA55C6901002}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC98B54E-6637-4D65-996A-FA55C6901002}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC98B54E-6637-4D65-996A-FA55C6901002}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20770AED-EDEC-4578-81AE-64E448E68FB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20770AED-EDEC-4578-81AE-64E448E68FB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20770AED-EDEC-4578-81AE-64E448E68FB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20770AED-EDEC-4578-81AE-64E448E68FB4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{20770AED-EDEC-4578-81AE-64E448E68FB4} = {D50E28CA-42E7-4406-B7A8-7B5F7A7F200E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {239E5B69-4976-455F-81E0-A0EA79DBC2A4}
+	EndGlobalSection
+EndGlobal
