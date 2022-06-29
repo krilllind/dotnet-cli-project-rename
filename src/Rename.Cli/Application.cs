@@ -47,6 +47,10 @@ public class Application
             await UpdateSolutionFile(solutionFile, projectUpdate, directoryUpdate);
         }
 
+        // TODO: Update project references in .csproj files
+
+        // TODO: Update "using" & "namespace" definitions
+
         Console.WriteLine($"Rename completed for project: {existingProject.Name}");
     }
 
